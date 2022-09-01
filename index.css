@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 678px;
+    width: 1000px;
+    left: 9px;
+    top: 5px;
+    border-radius: 0px;
+    position: absolute;
+    background: #1C1C1C;
+
+}
+.sub_container{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-top: 40px;
+    background: #1F2937;
+}
+h1{
+    
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+span{
+    color:#4ADF86;
+}
+p{
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    margin: 30px 0px;
+
+    
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    color:#D5D4D8;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+#reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    margin: 30px 0px;
+    position: absolute;
+    top: 200px;
+    left: 229px;
+    margin-left:10px;
+
+    
+    width: 101px;
+    height: 42px;
+    background: #10B981;
+    color:#D5D4D8;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+#copyonclick{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    margin: 30px 0px;
+     position: absolute;
+    top: 200px;
+    left: 359px;
+    margin-left:10px;
+
+
+    width: 91px;
+    height: 42px;
+    background: #10B981;
+    color:#D5D4D8;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+hr{
+   
+    margin-left: -1px;
+    width: 500px;
+}
+.passbox {
+    display: flex;
+    margin-top:10px;
+    
+}
+
+#pass1{
+    
+    color: #10B981;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+#pass2{
+    position: absolute;
+    top: 316px;
+    left: 229px;
+    margin-left:29px;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+    padding: 0 5px;
+}
+
